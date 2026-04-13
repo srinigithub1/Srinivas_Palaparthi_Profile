@@ -28,6 +28,16 @@ body {
   padding: 48px 0 36px;
 }
 
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 12px;
+}
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -85,6 +95,23 @@ h1 {
   border-radius: 10px;
   padding: 12px 14px;
   margin-bottom: 12px;
+}
+
+.role {
+  background: var(--card);
+  border: 1px solid #ececec;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+}
+
+.role-head h3 {
+  margin: 0 0 4px;
+}
+
+.role-head p {
+  margin: 0 0 10px;
+  color: var(--muted);
 }
 
 .pill-grid {
